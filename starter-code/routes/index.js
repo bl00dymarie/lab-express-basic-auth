@@ -6,4 +6,10 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
+// const loginCheck = () => {
+//   return (req, res, next) => {
+//     if
+//   }
+// }
+
 module.exports = router;
